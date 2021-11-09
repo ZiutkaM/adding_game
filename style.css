@@ -1,0 +1,103 @@
+html {
+  font-family: arial;
+}
+
+body {
+  width: 50%;
+  max-width: 800px;
+  min-width: 480px;
+  margin: 0 auto;
+  background-color: #d9f1fc;
+}
+
+aside {
+  width: 20%;
+  padding: 5px;
+  margin-left: 15px;
+  float: right;
+  font-style: bold;
+  text-align: center;
+  font-size: 20px;
+  background-color: #e4c1f9;
+  border: 2px solid #d7a2f6;
+  border-radius: 12px;
+}
+
+h1 {
+  /* margin-left: 100px; */
+  text-align: center;
+}
+
+.lastResult {
+  padding: 25px;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.lowOrHi {
+  text-align: center;
+  font-size: 20px;
+}
+
+.guessSubmit {
+  color: #a3004c;
+  padding: 10px 50px;
+  font-family: arial;
+  font-size: 25px;
+  background: linear-gradient(to bottom, #fcf6bd 5%, #ead40b 100%);
+  background-color: #fcf6bd;
+  border-radius: 6px;
+}
+
+.guessSubmit:hover {
+  background: linear-gradient(to bottom, #ead40b 5%, #fcf6bd 100%);
+  background-color: #ead40b;
+}
+
+.guessField {
+  border: 2px solid #7bcef4;
+  border-radius: 6px;
+}
+
+.guessField:focus {
+  border-color: transparent;
+  border-color: #7bcef4;
+  box-shadow: 0 0 8px 0 #7bcef4;
+}
+.guessField:focus-visible {
+  outline: none;
+}
+
+.super {
+  visibility: hidden;
+}
+.task {
+  font-size: 40px;
+}
+
+.guessField {
+  font-size: 25px;
+  padding: 10px;
+}
+
+.star {
+  visibility: hidden;
+}
+button {
+  /* color: rgb(1, 1, 59); */
+  display: block;
+  margin: auto;
+  padding: 10px 50px;
+  font-size: 25px;
+  background-color: #d0f4de;
+  background: linear-gradient(to bottom, #d0f4de 5%, #5ad88a 100%);
+  border-radius: 6px;
+}
+button:hover {
+  background: linear-gradient(to bottom, #5ad88a 5%, #d0f4de 100%);
+  background-color: #5ad88a;
+}
+button:focus-visible {
+  outline: none;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="dodawanie.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+
+    <title>Dodawanie</title>
+
+  </head>
+
+  <body>
+    <h1>DODAWANIE</h1>
+
+    <aside class="lvl">Poziom 1</aside>
+
+    <div id="allStars">
+      <img src="star.png" alt="star" id="star1" class="star">
+      <img src="star.png" alt="star" id="star2" class="star">
+      <img src="star.png" alt="star" id="star3" class="star">
+      <img src="star.png" alt="star" id="star4" class="star">
+      <img src="star.png" alt="star" id="star5" class="star">
+    </div>
+
+
+    <div class="form">
+      <label for="guessField" class="super">SUPER! Kolejny poziom osiągnięty</label>
+      <p class = "task"> <span class ="num1"></span> + <span class ="num2"></span> = </p>
+
+      <input type="text" id="guessField" class="guessField">
+      <input type="submit" value="Sprawdź" class="guessSubmit">
+    </div>
+
+    <div class="resultParas">
+      <p class="guesses"></p>
+      <p class="lastResult"></p>
+      <p class="lowOrHi"></p>
+    </div>
+
+
+  </body>
+</html>
